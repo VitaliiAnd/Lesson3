@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h3>
+        <a href="../index.html"> Назад</a>
+    </h3>
+    <h3>З клавіатури вводиться вік людини. Вивести на екран ким він є (дитиною у садочку, 
+        школярем, студентом, працівником, пенсіонером).</h3>
+
+        <script>
+            const userAge = parseInt(prompt(`Давай провірим хто ти, пиши свій вік`))
+            if (userAge <= 6){
+                document.write(`дитино іди вчи табл множення`)
+            }
+            else if (userAge <= 17){
+                document.write(`школяр`)
+            }
+            else if (userAge <= 22){
+                document.write(`стедент, іди сесію здай`)
+            }
+            else if (userAge <= 60){
+                document.write(`Роботяга`)
+            }
+            else if (userAge >= 61){
+                document.write(`пенсіонер роби руханку`)
+            }
+        </script> 
+</body>
+</html>
